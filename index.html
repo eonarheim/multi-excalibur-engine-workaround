@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mulit-engine workaround</title>
+    <script src="https://unpkg.com/excalibur@0.27.0/build/dist/excalibur.min.js"></script>
+    <style>
+        iframe {
+            margin:0;
+            padding:0;
+            border: none;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas1"></canvas>
+    <iframe id="frame" scrolling="no" src="./frame.html"></iframe>
+    <script src="main.js"></script>
+</body>
+</html>
